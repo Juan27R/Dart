@@ -54,22 +54,10 @@ class Producto {
 void main() {
   // Crear un objeto de la clase Producto
   var producto = Producto('Camiseta', 50.0, 200);
-
-  // Mostrar detalles iniciales del producto
   producto.mostrarDetalles();
-
-  // Realizar una compra
   producto.comprar(10);
-
-  // Mostrar detalles después de la compra
   producto.mostrarDetalles();
-
-  // Realizar una venta
   producto.vender(5);
-
-  // Mostrar detalles después de la venta
   producto.mostrarDetalles();
-
-  // Intentar vender más unidades de las disponibles
   producto.vender(100);
 }
